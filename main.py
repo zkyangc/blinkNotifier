@@ -38,6 +38,8 @@ while True:
 
     #todo frame is already array with 'bgr', just feed it into the cropping model to separate the face
 
+    #todo: try dlib
+
 
     cv2.imshow("Capturing", frame)
     # this cv2.waitKey 75ms will work as sleep() in some way
